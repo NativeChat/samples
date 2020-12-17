@@ -62,8 +62,11 @@
     "NEXT-PAGE": [
       "Seuraava 5"
     ],
+    "PREVIOUS-PAGE": [
+      "Edellinen 5"
+    ],
     "RESTART": [
-      "restart",
+      "käynnistää uudelleen",
       "restart"
     ]
   }

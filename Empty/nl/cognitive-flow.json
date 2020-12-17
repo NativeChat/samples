@@ -60,9 +60,13 @@
   },
   "commands": {
     "NEXT-PAGE": [
-      "Next 5"
+      "Volgende 5"
+    ],
+    "PREVIOUS-PAGE": [
+      "Vorige 5"
     ],
     "RESTART": [
+      "opnieuw opstarten",
       "restart"
     ]
   }

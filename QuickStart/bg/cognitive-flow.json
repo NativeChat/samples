@@ -283,6 +283,9 @@
     "NEXT-PAGE": [
       "Следващи 5"
     ],
+    "PREVIOUS-PAGE": [
+      "Предишни 5"
+    ],
     "RESTART": [
       "рестарт",
       "restart"

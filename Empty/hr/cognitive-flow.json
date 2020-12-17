@@ -62,7 +62,11 @@
     "NEXT-PAGE": [
       "Sljedećih 5"
     ],
+    "PREVIOUS-PAGE": [
+      "Prethodnih 5"
+    ],
     "RESTART": [
+      "ponovo pokreni",
       "restart"
     ]
   }
