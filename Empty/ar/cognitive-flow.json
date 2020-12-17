@@ -60,7 +60,10 @@
   },
   "commands": {
     "NEXT-PAGE": [
-      "Next 5"
+      "5 التالي"
+    ],
+    "PREVIOUS-PAGE": [
+      "5 السابق"
     ],
     "RESTART": [
       "restart",

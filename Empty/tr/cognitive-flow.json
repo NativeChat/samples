@@ -62,7 +62,11 @@
     "NEXT-PAGE": [
       "Sonraki 5"
     ],
+    "PREVIOUS-PAGE": [
+      "Önceki 5"
+    ],
     "RESTART": [
+      "yeniden başlat",
       "restart"
     ]
   }

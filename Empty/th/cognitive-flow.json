@@ -62,6 +62,9 @@
     "NEXT-PAGE": [
       "ถัดไป 5"
     ],
+    "PREVIOUS-PAGE": [
+      "5 ก่อนหน้า"
+    ],
     "RESTART": [
       "เริ่มต้นใหม่",
       "restart"

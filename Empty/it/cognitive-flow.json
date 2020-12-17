@@ -60,9 +60,13 @@
   },
   "commands": {
     "NEXT-PAGE": [
-      "Next 5"
+      "Avanti 5"
+    ],
+    "PREVIOUS-PAGE": [
+      "5 precedenti"
     ],
     "RESTART": [
+      "riavvia",
       "restart"
     ]
   }
