@@ -63,10 +63,11 @@
       "Siguientes 5"
     ],
     "PREVIOUS-PAGE": [
-      "Anteriores 5"
+      "5 anteriores"
     ],
     "RESTART": [
-      "reiniciar"
+      "reiniciar",
+      "restart"
     ]
   }
 }

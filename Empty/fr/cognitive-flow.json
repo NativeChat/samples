@@ -67,7 +67,8 @@
     ],
     "RESTART": [
       "redémarrer",
-      "redemarrer"
+      "redemarrer",
+      "restart"
     ]
   }
 }
