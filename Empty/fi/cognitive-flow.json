@@ -60,13 +60,13 @@
   },
   "commands": {
     "NEXT-PAGE": [
-      "Seuraava 5"
+      "5 seuraavaa"
     ],
     "PREVIOUS-PAGE": [
-      "Edellinen 5"
+      "5 edellistä"
     ],
     "RESTART": [
-      "käynnistää uudelleen",
+      "aloita uudelleen",
       "restart"
     ]
   }
