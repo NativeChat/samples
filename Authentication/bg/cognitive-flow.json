@@ -294,6 +294,9 @@
       "Връщам се към {{ conversationDisplayName }}."
     ],
     "authentication": {
+      "issuer": "https://accounts.google.com/",
+      "client-id": "<clientId>",
+      "client-secret": "<clientSecret>",
       "entity": "auth",
       "messages": [
         "Моля влезте в системата, за да продължите."
@@ -305,7 +308,6 @@
         "type": "login",
         "template": {
           "title": "Вход Болница АСМЕ София",
-          "url": "https://bs-login.nativechat.com/login",
           "image": "https://nativechat.com/img/logo.png"
         }
       }
