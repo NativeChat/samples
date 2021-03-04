@@ -294,9 +294,11 @@
       "Връщам се към {{ conversationDisplayName }}."
     ],
     "authentication": {
-      "issuer": "https://accounts.google.com/",
-      "client-id": "<clientId>",
-      "client-secret": "<clientSecret>",
+      "oidc": {
+        "issuer": "https://accounts.google.com/",
+        "client-id": "<clientId>",
+        "client-secret": "<clientSecret>"
+      },
       "entity": "auth",
       "messages": [
         "Моля влезте в системата, за да продължите."
