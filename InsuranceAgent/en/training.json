@@ -1011,10 +1011,10 @@
             "data": [],
             "dynamic-data": {
                 "data-source": {
-                    "endpoint": "https://sample-webhooks.nativechat.com/v1/insurance/recommendInsurances",
-                    "method": "POST",
+                    "endpoint": "https://api.demo.nativechat.com/v1/insurance-agent/get-recommendations",
+                    "method": "GET",
                     "headers": {
-                        "Authorization": "Basic aG9va3VzZXI6YWRtaW5AMg=="
+                        "Authorization": "Basic ZGVtby11c2VyOmRlbW8tcGFzc3dvcmQ="
                     },
                     "payload": {},
                     "selector": ""

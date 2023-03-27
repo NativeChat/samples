@@ -116,10 +116,10 @@
               "type": "custom",
               "parameters": {
                 "data-source": {
-                  "endpoint": "https://sample-webhooks.nativechat.com/v1/doctor/GetDoctorDays?doctorId={{$encodeURI doctor.ExternalId}}",
-                  "method": "POST",
+                  "endpoint": "https://api.demo.nativechat.com/v1/book-a-doctor/doctor-days?doctorId={{$encodeURI doctor.ExternalId}}",
+                  "method": "GET",
                   "headers": {
-                    "Authorization": "Basic aG9va3VzZXI6YWRtaW5AMg=="
+                    "Authorization": "Basic ZGVtby11c2VyOmRlbW8tcGFzc3dvcmQ="
                   }
                 },
                 "condition": "{{$ne \"[]\" ($json _response)}}"
@@ -148,10 +148,10 @@
               "type": "custom",
               "parameters": {
                 "data-source": {
-                  "endpoint": "https://sample-webhooks.nativechat.com/v1/doctor/GetDoctorDays?doctorId={{$encodeURI doctor.ExternalId}}",
-                  "method": "POST",
+                  "endpoint": "https://api.demo.nativechat.com/v1/book-a-doctor/doctor-days?doctorId={{$encodeURI doctor.ExternalId}}",
+                  "method": "GET",
                   "headers": {
-                    "Authorization": "Basic aG9va3VzZXI6YWRtaW5AMg=="
+                    "Authorization": "Basic ZGVtby11c2VyOmRlbW8tcGFzc3dvcmQ="
                   }
                 },
                 "condition": "{{$in ($date date 'YYYY-MM-DD') _response}}"
@@ -164,10 +164,10 @@
           "display": {
             "type": "quick-reply",
             "data-source": {
-              "endpoint": "https://sample-webhooks.nativechat.com/v1/doctor/GetDoctorDays?doctorId={{$encodeURI doctor.ExternalId}}",
-              "method": "POST",
+              "endpoint": "https://api.demo.nativechat.com/v1/book-a-doctor/doctor-days?doctorId={{$encodeURI doctor.ExternalId}}",
+              "method": "GET",
               "headers": {
-                "Authorization": "Basic aG9va3VzZXI6YWRtaW5AMg=="
+                "Authorization": "Basic ZGVtby11c2VyOmRlbW8tcGFzc3dvcmQ="
               }
             }
           }
@@ -184,10 +184,10 @@
               "type": "custom",
               "parameters": {
                 "data-source": {
-                  "endpoint": "https://sample-webhooks.nativechat.com/v1/doctor/GetDoctorHours?doctorId={{$encodeURI doctor.ExternalId}}&date={{$encodeURI date}}",
-                  "method": "POST",
+                  "endpoint": "https://api.demo.nativechat.com/v1/book-a-doctor/doctor-hours?doctorId={{$encodeURI doctor.ExternalId}}&date={{$encodeURI date}}",
+                  "method": "GET",
                   "headers": {
-                    "Authorization": "Basic aG9va3VzZXI6YWRtaW5AMg=="
+                    "Authorization": "Basic ZGVtby11c2VyOmRlbW8tcGFzc3dvcmQ="
                   }
                 },
                 "condition": "{{$in time _response}}"
@@ -200,10 +200,10 @@
           "display": {
             "type": "quick-reply",
             "data-source": {
-              "endpoint": "https://sample-webhooks.nativechat.com/v1/doctor/GetDoctorHours?doctorId={{$encodeURI doctor.ExternalId}}&date={{$encodeURI date}}",
-              "method": "POST",
+              "endpoint": "https://api.demo.nativechat.com/v1/book-a-doctor/doctor-hours?doctorId={{$encodeURI doctor.ExternalId}}&date={{$encodeURI date}}",
+              "method": "GET",
               "headers": {
-                "Authorization": "Basic aG9va3VzZXI6YWRtaW5AMg=="
+                "Authorization": "Basic ZGVtby11c2VyOmRlbW8tcGFzc3dvcmQ="
               }
             }
           }
@@ -255,8 +255,11 @@
             "Поздравления. Имате записан час за {{doctor}} на {{date}} от {{time}}. Очакваме ви!"
           ],
           "data-source": {
-            "endpoint": "https://sample-webhooks.nativechat.com/v1/persistence/saveAppointments",
+            "endpoint": "https://api.demo.nativechat.com/v1/book-a-doctor/appointment",
             "method": "POST",
+            "headers": {
+              "Authorization": "Basic ZGVtby11c2VyOmRlbW8tcGFzc3dvcmQ="
+            },
             "payload": {
               "DoctorID": "{{doctor.ExternalId}}",
               "PatientName": "{{contactName}}",
