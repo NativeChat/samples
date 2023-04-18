@@ -2056,19 +2056,19 @@
                                             "title": "Patriot WorldWide Plus",
                                             "value": "Patriot WorldWide Plus",
                                             "subtitle": "$81.10",
-                                            "imageUrl": "https://raw.githubusercontent.com/darvinai/samples/master/InsuranceAgent/en/images/patriot.png"
+                                            "imageUrl": "https://raw.githubusercontent.com/nativechat/samples/main/InsuranceAgent/en/images/patriot.png"
                                         },
                                         {
                                             "title": "Travel Medical Insurance",
                                             "value": "Travel Medical Insurance",
                                             "subtitle": "$35.20",
-                                            "imageUrl": "https://raw.githubusercontent.com/darvinai/samples/master/InsuranceAgent/en/images/travel-medical.png"
+                                            "imageUrl": "https://raw.githubusercontent.com/nativechat/samples/main/InsuranceAgent/en/images/travel-medical.png"
                                         },
                                         {
                                             "title": "Global Medical Insurance",
                                             "value": "Global Medical Insurance",
                                             "subtitle": "$60.30",
-                                            "imageUrl": "https://raw.githubusercontent.com/darvinai/samples/master/InsuranceAgent/en/images/global-medical.png"
+                                            "imageUrl": "https://raw.githubusercontent.com/nativechat/samples/main/InsuranceAgent/en/images/global-medical.png"
                                         }
                                     ],
                                     "buttons": [
