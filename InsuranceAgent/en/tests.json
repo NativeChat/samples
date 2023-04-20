@@ -6,8 +6,8 @@
         {
             "it": "make new insurance + ask about insurance coverage",
             "mocks": {
-                "https://sample-webhooks.nativechat.com/v1/insurance/recommendInsurances?startDate=2015.03.11&endDate=2015.04.01": {
-                    "POST": [
+                "https://api.demo.nativechat.com/v1/insurance-agent/get-recommendations?startDate=2015.03.11&endDate=2015.04.01": {
+                    "GET": [
                         {
                             "Name": "Travel Medical Insurance",
                             "Features": [
@@ -47,8 +47,8 @@
                         }
                     ]
                 },
-                "https://sample-webhooks.nativechat.com/v1/insurance/recommendInsurance?startDate=2015.03.11&endDate=2015.04.01&id=f252b7d0-130d-11e8-8b78-370e90d8b030": {
-                    "POST": {
+                "https://api.demo.nativechat.com/v1/insurance-agent/get-recommendation?startDate=2015.03.11&endDate=2015.04.01&id=f252b7d0-130d-11e8-8b78-370e90d8b030": {
+                    "GET": {
                         "Name": "Patriot WorldWide Plus",
                         "Features": [
                             "Renewable up to 24 months",
@@ -2056,19 +2056,19 @@
                                             "title": "Patriot WorldWide Plus",
                                             "value": "Patriot WorldWide Plus",
                                             "subtitle": "$81.10",
-                                            "imageUrl": "https://raw.githubusercontent.com/darvinai/samples/master/InsuranceAgent/en/images/patriot.png"
+                                            "imageUrl": "https://raw.githubusercontent.com/nativechat/samples/main/InsuranceAgent/en/images/patriot.png"
                                         },
                                         {
                                             "title": "Travel Medical Insurance",
                                             "value": "Travel Medical Insurance",
                                             "subtitle": "$35.20",
-                                            "imageUrl": "https://raw.githubusercontent.com/darvinai/samples/master/InsuranceAgent/en/images/travel-medical.png"
+                                            "imageUrl": "https://raw.githubusercontent.com/nativechat/samples/main/InsuranceAgent/en/images/travel-medical.png"
                                         },
                                         {
                                             "title": "Global Medical Insurance",
                                             "value": "Global Medical Insurance",
                                             "subtitle": "$60.30",
-                                            "imageUrl": "https://raw.githubusercontent.com/darvinai/samples/master/InsuranceAgent/en/images/global-medical.png"
+                                            "imageUrl": "https://raw.githubusercontent.com/nativechat/samples/main/InsuranceAgent/en/images/global-medical.png"
                                         }
                                     ],
                                     "buttons": [
